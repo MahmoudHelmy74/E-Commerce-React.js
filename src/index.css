@@ -1,0 +1,99 @@
+/* global css*/
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+}
+.containerr{
+  padding: 0 90px;
+  margin: 0 auto;
+}
+
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-1{
+  flex: 1;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.flex-1 a{
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+/* signup css*/
+.parent{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+input{
+  padding: 10px 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+  transition: .3s;
+
+}
+input:focus{
+  border: 2px solid #86b7fe;
+  background-color: #86b7fe;
+}
+input::placeholder{
+  color: rgba(0, 0, 0, 0.3);
+}
+button, .register-nav {
+  padding: 10px 20px;
+  background: #86b7fe;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+button:not(.bt):hover, .register-nav:hover{
+  background-color: white;
+  color: #86b7fe;
+  border: 2px solid #86b7fe;
+}
+.error{
+  color:red;
+  font-size: 14px;
+  margin-top: 0;
+}
+.height-500{
+  height: 500px;
+}
+/* product */
+.image{
+  height: 200px;
+}
+.card-detailes{
+  text-align: center;
+}
+.image-detailes{
+  width: 60%;
+  height: 400px;
+}
+.product-title{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+}
