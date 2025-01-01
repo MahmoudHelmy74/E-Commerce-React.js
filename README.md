@@ -20,5 +20,5 @@ Html And Css And React.js
 <P>- 3. Install the dependencies : npm install </P>
 <P>- 4. Run the JSON Server : json-server --watch db.json --port 8000 </P>
 <P>- 5. Start the React app: npm start</P>
-
+<p>- 6. Open the app in your browser at : http://localhost:3000 </p>
 
