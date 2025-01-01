@@ -12,11 +12,7 @@ Html And Css And React.js
 <p>- Responsive design </p>
 
 <h6>Technologies :</h6>
-<P>- html</P>
-<P>- css</P>
-<P>- react.js</P>
-<P>- useContext</P>
-<P>- Api</P>
+<P>- html / css /react.js / useContext / Api</P>
 
 <h6>Installation :</h6>
 <P>- 1. Clone the repository : git clone https://github.com/MahmoudHelmy74/E-Commerce-React.js </P>
